@@ -4,12 +4,17 @@
 ## สารบัญ 
    [start]
 
-## __${\color{blue}Variable}$__
+--- 
+> abcedefegha
 
-| name | หน้าที่ | 
-|-----:|---------------|
-|     1|               |
-|     2|               |
-|     3|               |
+## __${\color{black}Variable}$__
+
+| ตัวแปร | หน้าที่ | 
+|:---:|:---:|
+| int |   |
+| signed int |   |
+| long long |   |
+| unsigned long long |  |
+
 **Variables**
 "n = 100"
