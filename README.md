@@ -4,6 +4,7 @@
    * [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable)
    * [Input/Output](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#inputoutput)
    * [Condition and if statement](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#conditions-and-if-statements)
+   * [Math in C++](https://github.com/Warmhugboi/RoadToPosn1/edit/main/README.md#math-in-c)
    * [loop](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#loop)
 
 
@@ -96,7 +97,7 @@
 
 # Input/Output
 
-### __${\color{green}cin}$__
+__${\color{green}-}$__ __${\color{green}cin}$__
 
 เป็นคำสั่งเอาไว้รับค่า ซึ่งก่อนจะรับค่าอย่าลืมประกาศตัวแปรไว้ก่อนด้วย
 
@@ -109,7 +110,7 @@
       string x;
       cin >> n >> m >> s >> t >> x ;
 
-### __${\color{green}cout}$__
+__${\color{green}-}$__ __${\color{green}cout}$__
 
 เป็นคำสั่งเอาไว้พิมพ์ค่าแสดงออกทางหน้าจอ
 
@@ -184,7 +185,7 @@
          cout << "a is equal to b";
       }
 
-## ตัวดำเนินการทางคณิตศาสตร์
+# Math in c++
 
 | ตัวกำเนินการ | ความหมาย |
 |:---:|:---:|
@@ -232,7 +233,7 @@
 
 a-- กับ --a ก็เหมือนกัน
 
-#### ฟังก์ชันที่เกี่ยวกับ math
+### - ฟังก์ชันที่เกี่ยวกับ math
 
 | ฟังก์ชัน | ค่าที่ได้ |
 |:---:|:---:|
@@ -248,7 +249,7 @@ a-- กับ --a ก็เหมือนกัน
 ดังนั้น `lcd = (a*b)/gcd`
 
 
-## loop
+# loop
 
 ### __${\color{blue}for}$__
 
