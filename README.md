@@ -2,7 +2,7 @@
 
 
 ## สารบัญ 
-   [Variables](https://github.com/Warmhugboi/RoadToPosn1/edit/main/README.md#variable)
+   [(https://github.com/Warmhugboi/RoadToPosn1/edit/main/README.md#variable)](https://github.com/Warmhugboi/RoadToPosn1?tab=readme-ov-file#variable)
 
 ---
 
