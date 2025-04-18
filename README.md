@@ -4,7 +4,7 @@
    * [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable)
    * [Input/Output](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#inputoutput)
    * [Condition and if statement](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#conditions-and-if-statements)
-   * [Math in C++](https://github.com/Warmhugboi/RoadToPosn1/edit/main/README.md#math-in-c)
+   * [Math in C++](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#conditions-and-if-statements)
    * [loop](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#loop)
 
 
