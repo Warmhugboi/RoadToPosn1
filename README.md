@@ -6,8 +6,14 @@
    * [Input/Output](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#inputoutput)
    * [Condition and if statement](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#conditions-and-if-statements)
    * [Math in C++](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#conditions-and-if-statements)
-   * [loop](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#loop)
-
+   * [Loop](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#loop)
+   * [Array](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#array)
+   * [Vector](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#vector)
+   * [Set](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#set)
+   * [Char and Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#char-and-ascii-code)
+   * [String](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#string)
+   * [Sorting](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#sorting)
+   * [Binary Search](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#binary-search)
 
 # ข้อควรรู้ก่อนเข้าสู่เนื้อหา
 
@@ -215,7 +221,7 @@
          cout << "a is equal to b";
       }
 
-# Math in c++
+# Math in C++
 
 | ตัวกำเนินการ | ความหมาย |
 |:---:|:---:|
