@@ -12,6 +12,7 @@
    * [Set](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#set)
    * [Char and Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#char-and-ascii-code)
    * [String](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#string)
+   * [Function](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#function)
    * [Sorting](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#sorting)
    * [Binary Search](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#binary-search)
 
