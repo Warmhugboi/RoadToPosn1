@@ -10,7 +10,7 @@
    * [Array](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#array)
    * [Vector](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#vector)
    * [Set](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#set)
-   * [Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#char-and-ascii-code)
+   * [Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#ascii-code)
    * [Function](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#function)
    * [Sorting](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#sorting)
    * [Binary Search](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#binary-search)
@@ -531,8 +531,6 @@
     cout << char(x);       // Output = A  ก็จะได้ออกมาเป็นตัวอักษรที่มีค่า ascii = 65 นั่นเอง
 
 `เตือน!!` แน่นอนว่าค่า `ascii` ของตัวพิมพ์ใหญ่กับตัวพิมพ์เล็กไม่เท่ากัน รวมถึงตัวเลขแต่ละตัว(0-9) ก็มีค่า `ascii` ของตัวมันเองนะ
-
-### - ตารางค่า ascii
 
 <img src="https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/ASCII-Table.png" width="700px" align="center">
 ขอบคุณภาพจาก https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/characters.html
