@@ -110,6 +110,22 @@ __${\color{green}-}$__ __${\color{green}cin}$__
       string x;
       cin >> n >> m >> s >> t >> x ;
 
+`!!trick` เพิ่มเติม ถ้าอยากรับ string ที่มีช่องว่างให้ใช้ `getline()` เช่น
+
+    string s;
+    getline(cin, s);     // Ex.Input = I am so handsome
+    cout << s ;        // Output = I am so handsome
+    
+จากตัวอย่าง เราก็จะเก็บ string ที่มีช่องว่างได้ และถ้ามี cin ก่อนหน้า `getline()` ให้ใช้คำสั่ง `cin.ignore()` เช่น
+
+    string a,b,s;
+    
+    cin >> a >> b;
+    cin.ignore();      // ลองรันโปรแกรมแบบมีบรรทัดนี้และไม่มีดู จะเห็นถึงความแตกต่าง
+    getline(cin, s);
+    cout<<s;
+
+
 __${\color{green}-}$__ __${\color{green}cout}$__
 
 เป็นคำสั่งเอาไว้พิมพ์ค่าแสดงออกทางหน้าจอ
@@ -138,7 +154,7 @@ __${\color{green}-}$__ __${\color{green}cout}$__
       cout << fixed << setprecision(x) << n;    // x คือ จำนวนตำแหน่งของทศนิยม
 
 
-## Conditions and If Statements
+# Conditions and If Statements
 
 ### - ตัวดำเนินการทางตรรกศาตร์
 
@@ -230,19 +246,18 @@ __${\color{green}-}$__ __${\color{green}cout}$__
 
 ความแตกต่างระหว่าง `a++/++a` คือถ้าเป็น `++a` จะทำการบวกค่า a ก่อนแล้วค่อยเอาไปใช้ แต่ถ้าเป็น `a++` จะนำค่าไปใช้ก่อนแล้วค่อยบวกค่า a เช่น
 
-ถ้าเป็น a++
+ถ้าเป็น a++/a--
       
       int a = 10 ;
       cout << a++ << "\n";    // Output = 10
       cout << a ;      // Output = 11
 
-ถ้าเป็น ++a
+ถ้าเป็น ++a/--a
 
       int a = 10 ;
       cout << ++a << "\n";    // Output = 11
       cout << a ;      // Output = 11
 
-a-- กับ --a ก็เหมือนกัน
 
 ### - ฟังก์ชันที่เกี่ยวกับ math
 
@@ -260,7 +275,7 @@ a-- กับ --a ก็เหมือนกัน
 ดังนั้น `lcd = (a*b)/gcd`
 
 
-# loop
+# Loop
 
 ### __${\color{blue}for}$__
 
@@ -273,14 +288,35 @@ a-- กับ --a ก็เหมือนกัน
 
 หลักการทำงานคือ
 
-- int i = 0 คือตั้งต้นให้ i = 0
-- i < n คือ ถ้า i < n อยู่ให้ทำงานต่อ ถ้า i>=n จะหยุดการทำงาน
-- ++i คือ ค่า i จะบวก 1 เมื่อจบการทำงานใน process
+- `int i = 0` คือตั้งต้นให้ i = 0
+- `i < n` คือ ถ้า i < n อยู่ให้ทำงานต่อ ถ้า i>=n จะหยุดการทำงาน
+- `++i` คือ ค่า i จะบวก 1 เมื่อจบการทำงานใน process
 
 
+### __${\color{blue}while}$__
 
 
+ใน C++ มีการเขียน while loop หน้าตาดังนี้
 
+    while(condition){
+        //process
+    }
+
+ถ้า `condition` เป็น `true` จะทำงานใน process ไปเรื่อยๆ จนกว่าจะเป็น `false` เช่น
+
+    int n = 10 ;
+    while(n--){
+        //process
+    }
+
+จากตัวอย่าง โปรแกรมจะทำงานไปเรื่อยๆ จนกว่า `n==0` แล้วจึงหยุดทำงาน เนื่องจาก `0` ในค่าความจริงคือ `false`
+
+,m 
 
 
       
+
+
+
+
+
