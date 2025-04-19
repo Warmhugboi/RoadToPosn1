@@ -10,8 +10,7 @@
    * [Array](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#array)
    * [Vector](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#vector)
    * [Set](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#set)
-   * [Char and Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#char-and-ascii-code)
-   * [String](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#string)
+   * [Ascii Code](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#char-and-ascii-code)
    * [Function](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#function)
    * [Sorting](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#sorting)
    * [Binary Search](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#binary-search)
@@ -91,7 +90,7 @@
 
 วิธีประกาศชื่อตัวแปร
 
-      ประเภทตัวแปร ชื่อตัวแปร;      // ชื่อตัวแปรระวังอย่าให้เหมือนชื่อฟังก์ชัน หรือชื่อเฉพาะ
+      ประเภทตัวแปร ชื่อตัวแปร;       // ชื่อตัวแปรระวังอย่าให้เหมือนชื่อฟังก์ชัน หรือชื่อเฉพาะ
       int a;
       string s;
       char c;
@@ -509,15 +508,14 @@
 และ เรายังสามารถประกาศแบบ `set<<variable>,greater<variable>> name ;` เพื่อให้เรียงจากมากไปน้อยได้
 
 
-# Char and Ascii Code
+# Ascii Code
 
 อย่างที่เราเรียนมาในหัวข้อ [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable) ว่า char เป็นตัวแปรที่ทำหน้าที่รับตัวอักษรตัวเดียว \
 ซึ่งตัวอักษรตัวใดๆ จะมีค่า 2 แบบ คือ `ตัวมันเอง` กับ `ค่าของมัน(ascii code)` เช่น
 
     char c = 'A';
 
-ในที่นี้ตัวมันเองคือ `A` แต่ค่าของมันคือ `65`\
-แล้วเราจะรู้ได้อย่างไรว่าตัวอักษรแต่ละตัวมีค่า `ascii code` เท่าไหร่ วิธีมีดังนี้
+ในที่นี้ตัวมันเองคือ `A` แต่ค่าของมันคือ `65` แล้วเราจะรู้ได้อย่างไรว่าตัวอักษรแต่ละตัวมีค่า `ascii code` เท่าไหร่ วิธีมีดังนี้
 
     char c = 'A'; 
     cout << c << '\n' ;     // Output = A   ซึ่งก็คือตัวมันเอง
@@ -526,31 +524,70 @@
     // เราสามารถเก็บค่า ascii code ในตัวแปร char แทนได้ เช่น
     char c = 65 ;        // c = 'A'
     
-`เตือน!!` แน่นอนว่าค่า ascii ของตัวพิมพ์ใหญ่กับตัวพิมพ์เล็กไม่เท่ากันนะ
 
 ในทางกลับกันถ้าเรามีค่า `ascii code` อยู่แล้ว แล้วเราอยากรู้ว่ามันคือตัวอักษรอะไรล่ะ ก็มีวิธีการดังนี้
 
     int x = 65 ;
     cout << char(x);       // Output = A  ก็จะได้ออกมาเป็นตัวอักษรที่มีค่า ascii = 65 นั่นเอง
 
-คงจะสงสัยกันใช่มั้ยว่าแล้วมันมีประโยชน์อะไร บอกเลยว่าของโกง สมมติเรามี `string s = "askjh"`แล้วอยากเช็คว่ามีอักษรอะไรบ้างและมีอย่างละกี่ตัวถ้าเป็นข้อความสั้นๆ คงนั่งนับเอาได้แต่คิดสภาพถ้ามีข้อความยาวเป็นล้านตัวอักษร คงนั่งนับไม่ไหว จึงต้องมีการแก้ปัญหาด้วย ascii code ดังนี้
+`เตือน!!` แน่นอนว่าค่า `ascii` ของตัวพิมพ์ใหญ่กับตัวพิมพ์เล็กไม่เท่ากัน รวมถึงตัวเลขแต่ละตัว(0-9) ก็มีค่า `ascii` ของตัวมันเองนะ
 
-    
-    int arr[200];
-    memset(arr, 0, sizeof(arr));        
-    string s;
-    cin >> s;
-    
+### - ตารางค่า ascii
 
-
-    
-
-# String
-
+<img src="https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/ASCII-Table.png" width="700px" align="center">
+ขอบคุณภาพจาก https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/characters.html
 
 # Function
 
+ฟังก์ชันคือ กลุ่มของโค้ดที่เมื่อเราเรียกใช้งานก็จะทำงานคำสั่งภายในฟังก์ชันนั้น ซึ่งช่วยให้เราเขียนโค้ดได้สะอาดมากขึ้น โดยเราจะมีการเขียนไว้ข้างบน `main`\
+โดยฟังก์ชันจะมีอยู่ 2 แบบหลักๆ คือ `ส่งค่ากลับ` และ `ไม่ส่งค่ากลับ(void)` 
 
+### - แบบส่งค่ากลับ
+
+        #include <bits/stdc++.h>
+        using namespace std;
+
+        <variable> <name>(){
+              // process
+              // return
+        }
+
+        // เช่น
+        int sum(int x, int y){
+            int c = x+y ;
+            return c ;
+        }
+        
+        int main() {
+            int a,b ;
+            cin >> a >> b;
+            cout << sum(a,b);         // Output = a+b
+       }
+
+จะเป็นฟังก์ชันที่เราเรียกใช้แล้วจะมีการ `ส่งค่ากลับมา(return)` ซึ่งเราจะใช้ `<variable>` ตามค่าที่เราส่งกลับ
+
+### - แบบไม่ส่งค่ากลับ
+
+#include <bits/stdc++.h>
+        using namespace std;
+
+        void <name>(){
+              // process
+        }
+
+        // เช่น
+        void eiei(){
+            cout << "Hello World ";
+            cout << "HAHAHA";
+        }
+        
+        int main() {
+
+            eiei();        // Output = Hello World HAHAHA
+            
+       }
+
+จะเห็นว่าไม่มีการ ส่งค่ากลับ(return)
 
 # Sorting
 
