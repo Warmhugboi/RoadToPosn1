@@ -116,7 +116,7 @@
     getline(cin, s);     // Ex.Input = I am so handsome
     cout << s ;        // Output = I am so handsome
     
-จากตัวอย่าง เราก็จะเก็บ string ที่มีช่องว่างได้ และถ้ามี cin ก่อนหน้า `getline()` ให้ใช้คำสั่ง `cin.ignore()` เช่น
+จากตัวอย่าง เราก็จะเก็บ string ที่มีช่องว่างได้ และถ้ามี `cin` ก่อนหน้า `getline()` ให้ใช้คำสั่ง `cin.ignore()` เช่น
 
     string a,b,s;
     
