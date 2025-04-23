@@ -14,6 +14,7 @@
    * [Function](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#function)
    * [Sort](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#sort)
    * [Binary Search](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#binary-search)
+   * [Range Sum Query or Quick Sum](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#range-sum-query-or-quick-sum)
 
 # ข้อควรรู้ก่อนเข้าสู่เนื้อหา
 
