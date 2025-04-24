@@ -66,6 +66,20 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 
+# Least Common Multiple
+# input
+บรรทัดเดียว จำนวนเต็ม 2 จำนวน a และ b คั่นด้วยช่องว่าง
+# output
+บรรทัดเดียว แสดงค่า l.c.m. ของตัวเลข a และ b
+
+### Constraint:
+0 < a,b <= 100,000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
+
+
 # Sum 1
 จงหาผลรวมของตัวเลขตั้งแต่ 1 ถึง n
 ### input
