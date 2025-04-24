@@ -233,7 +233,8 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 ### input:
-10 2
+7 50 \
+10 20 12 15 15 14 9
 
 
 ### output:
