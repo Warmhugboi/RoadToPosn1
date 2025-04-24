@@ -12,7 +12,7 @@
 
 ### Constraint:
 
-1 <= n , q <= 1000000
+1 <= n , q <= 500000
 
 
 for each 0 <= i < n
