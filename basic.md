@@ -67,9 +67,9 @@ Memory limit: 16 MB
 
 
 # Least Common Multiple
-# input
+### input
 บรรทัดเดียว จำนวนเต็ม 2 จำนวน a และ b คั่นด้วยช่องว่าง
-# output
+### output
 บรรทัดเดียว แสดงค่า l.c.m. ของตัวเลข a และ b
 
 ### Constraint:
