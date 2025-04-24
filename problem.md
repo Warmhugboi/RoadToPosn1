@@ -201,6 +201,7 @@ Memory limit: 16 MB
 n <= 1000
 
 for each 0 <= i < n
+
 -2147483648 <= a[i] <= 2147483647
 
 Time limit: 1 second
@@ -221,6 +222,7 @@ Memory limit: 16 MB
 n <= 1000
 
 for each 0 <= i < n
+
 -2147483648 <= a[i] <= 2147483647
 
 Time limit: 1 second
@@ -240,6 +242,7 @@ Memory limit: 16 MB
 n <= 1000
 
 for each 0 <= i < n
+
 0 <= a[i] <= 2147483647
 
 Time limit: 1 second
