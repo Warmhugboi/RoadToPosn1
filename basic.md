@@ -48,6 +48,7 @@ Memory limit: 16 MB
 <br>
 
 ### input:
+
 56 69
 -
 <br>
