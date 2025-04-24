@@ -21,3 +21,8 @@ for each 0 <= i < n
 1 <= l <= r <= n
 
 -2147483648 <= k <= 2147483647
+
+
+Time limit: 1 second
+
+Memory limit: 64 MB
