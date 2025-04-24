@@ -24,7 +24,28 @@ for each 0 <= i < n
 
 -2147483648 <= k <= 2147483647
 
+<br>
 
 Time limit: 1 second
 
 Memory limit: 64 MB
+
+<br>
+
+### input:
+
+10 5
+1 2 1 3 2 5 6 9 8 0
+1 5 2
+2 10 0
+3 3 1
+7 8 6
+1 2 3
+
+### output:
+
+2
+1
+1
+1
+0
