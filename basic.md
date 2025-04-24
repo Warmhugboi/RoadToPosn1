@@ -139,9 +139,19 @@ Memory limit: 16 MB
 ### Constraint:
 0 < a,b <= 100,000
 
+<br>
+
 Time limit: 1 second
 
 Memory limit: 16 MB
+
+<br>
+
+### input:
+2 3
+
+### output:
+6
 
 # swap
 ให้เลขมา n ตัวแล้วให้สลับตัวเลขจากซ้ายไปขวาเป็นขวาไปซ้าย
