@@ -112,12 +112,22 @@ Memory limit: 16 MB
 บรรทัดเดียว ค่าแฟคทอเรียลของ n
 
 ### Constraint:
-2 <= n <= 12
+0 <= n <= 12
 
+<br>
  
 Time limit: 1 second
 
 Memory limit: 16 MB
+
+
+<br>
+
+### input:
+5
+
+### output:
+120
 
 
 # Least Common Multiple
