@@ -23,6 +23,21 @@ Memory limit: 16 MB
 ### output
 บรรทัดเดียว จำนวนเต็ม n ตัวที่สลับแล้ว แต่ละตัวขั้นด้วยช่องว่าง
 
+### Constraint:
+
+n <= 100000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
+
+### input:
+10 
+1 3 4 2 6 5 7 9 8 0
+
+### output:
+9 7 0 8 6 5 3 1 2 4
+
 
 # Sum 3 
 จงหาผลรวมของตัวเลขตั้งแต่ 1 ถึง n
@@ -40,6 +55,7 @@ n <= 1000000000
 Time limit: 1 second
 
 Memory limit: 16 MB
+
 
 
 # Sum 4 
