@@ -309,6 +309,34 @@
 ดังนั้น `lcd = (a*b)/gcd`
 
 
+# Ascii Code
+
+อย่างที่เราเรียนมาในหัวข้อ [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable) ว่า char เป็นตัวแปรที่ทำหน้าที่รับตัวอักษรตัวเดียว \
+ซึ่งตัวอักษรตัวใดๆ จะมีค่า 2 แบบ คือ `ตัวมันเอง` กับ `ค่าของมัน(ascii code)` เช่น
+
+    char c = 'A';
+
+ในที่นี้ตัวมันเองคือ `A` แต่ค่าของมันคือ `65` แล้วเราจะรู้ได้อย่างไรว่าตัวอักษรแต่ละตัวมีค่า `ascii code` เท่าไหร่ วิธีมีดังนี้
+
+    char c = 'A'; 
+    cout << c << '\n' ;     // Output = A   ซึ่งก็คือตัวมันเอง
+    cout << int(c) ;      // Output = 65  ซึ่งก็คือค่า ascii ของมันนั่นเอง 
+
+    // เราสามารถเก็บค่า ascii code ในตัวแปร char แทนได้ เช่น
+    char c = 65 ;        // c = 'A'
+    
+
+ในทางกลับกันถ้าเรามีค่า `ascii code` อยู่แล้ว แล้วเราอยากรู้ว่ามันคือตัวอักษรอะไรล่ะ ก็มีวิธีการดังนี้
+
+    int x = 65 ;
+    cout << char(x);       // Output = A  ก็จะได้ออกมาเป็นตัวอักษรที่มีค่า ascii = 65 นั่นเอง
+
+`เตือน!!` แน่นอนว่าค่า `ascii` ของตัวพิมพ์ใหญ่กับตัวพิมพ์เล็กไม่เท่ากัน รวมถึงตัวเลขแต่ละตัว(0-9) ก็มีค่า `ascii` ของตัวมันเองนะ
+
+<img src="https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/ASCII-Table.png" width="700px" align="center">
+ขอบคุณภาพจาก https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/characters.html
+
+
 # Loop
 
 ### __${\color{blue}for}$__
@@ -589,33 +617,6 @@
 
 และ เรายังสามารถประกาศแบบ `set<<variable>,greater<variable>> name ;` เพื่อให้เรียงจากมากไปน้อยได้
 
-
-# Ascii Code
-
-อย่างที่เราเรียนมาในหัวข้อ [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable) ว่า char เป็นตัวแปรที่ทำหน้าที่รับตัวอักษรตัวเดียว \
-ซึ่งตัวอักษรตัวใดๆ จะมีค่า 2 แบบ คือ `ตัวมันเอง` กับ `ค่าของมัน(ascii code)` เช่น
-
-    char c = 'A';
-
-ในที่นี้ตัวมันเองคือ `A` แต่ค่าของมันคือ `65` แล้วเราจะรู้ได้อย่างไรว่าตัวอักษรแต่ละตัวมีค่า `ascii code` เท่าไหร่ วิธีมีดังนี้
-
-    char c = 'A'; 
-    cout << c << '\n' ;     // Output = A   ซึ่งก็คือตัวมันเอง
-    cout << int(c) ;      // Output = 65  ซึ่งก็คือค่า ascii ของมันนั่นเอง 
-
-    // เราสามารถเก็บค่า ascii code ในตัวแปร char แทนได้ เช่น
-    char c = 65 ;        // c = 'A'
-    
-
-ในทางกลับกันถ้าเรามีค่า `ascii code` อยู่แล้ว แล้วเราอยากรู้ว่ามันคือตัวอักษรอะไรล่ะ ก็มีวิธีการดังนี้
-
-    int x = 65 ;
-    cout << char(x);       // Output = A  ก็จะได้ออกมาเป็นตัวอักษรที่มีค่า ascii = 65 นั่นเอง
-
-`เตือน!!` แน่นอนว่าค่า `ascii` ของตัวพิมพ์ใหญ่กับตัวพิมพ์เล็กไม่เท่ากัน รวมถึงตัวเลขแต่ละตัว(0-9) ก็มีค่า `ascii` ของตัวมันเองนะ
-
-<img src="https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/ASCII-Table.png" width="700px" align="center">
-ขอบคุณภาพจาก https://www.asc.ohio-state.edu/demarneffe.1/LING5050/material/characters.html
 
 # Function
 
