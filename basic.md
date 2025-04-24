@@ -328,6 +328,14 @@ Memory limit: 16 MB
 ### output
 บรรทัดเดียว พิมพ์ตามคำสั่งโจทย์
 
+### Constraint:
+
+1 <= ความยาวอักขระ <= 10000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
+
 ### input
 ASKJDaskldjw
 ### output
@@ -340,6 +348,14 @@ MIX
 ### output
 บรรทัดแรก ตัวอักษรที่ติดกันต่อเนื่องมากที่สุด (รับประกันว่าจะมีตัวติดกันมากสุดเพียงตัวเดียว) \
 บรรทัดถัดมา จำนวนที่ติดกันมากสุด
+
+### Constraint:
+
+1 <= ความยาวอักขระ <= 10000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
 
 ### input
 abbaacabbbaa
@@ -354,6 +370,14 @@ b \
 บรรทัดถัดมา รับตัวอักษรที่ต้องการหา
 ### output
 บรรทัดเดียว จำนวนตัวอักษรที่อยู่ในสายอัขระ
+
+### Constraint:
+
+1 <= ความยาวอักขระ <= 10000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
 
 ### input
 abbaaabb \
