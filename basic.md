@@ -49,7 +49,7 @@ Memory limit: 16 MB
 
 ### input:
 
-56 69 
+56 69  \
 +
 
 <br>
