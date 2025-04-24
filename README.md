@@ -536,7 +536,7 @@
 
 นอกจากนี้ string ยังมีการดำเนินการพิเศษเป็นของตัวเอง ที่ vector ไม่มีอีกด้วย เช่นการนำสตริงมาต่อหลังกัน หรือการนำ char มาต่อหลัง เช่น
 
-    string a = "IloveTNT";
+      string a = "IloveTNT";
       string b="Gradering";
       char c='.';
       string d="com";
