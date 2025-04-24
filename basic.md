@@ -12,6 +12,11 @@
 
  -2147483648 <= a+b <= 2147483647 
 
+### input
+56
+69
+### output
+125
 
  
 Time limit: 1 second
