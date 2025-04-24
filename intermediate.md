@@ -66,7 +66,7 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 
-# sort 3
+# sort 3 (ปานกลาง)
 ### input
 บรรทัดแรก จำนวนเต็ม n \
 บรรทัดถัดมา จำนวนเต็ม n ค่า
