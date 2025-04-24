@@ -49,12 +49,14 @@ Memory limit: 16 MB
 
 ### input:
 
-56 -69
+56 69
+
+-
 
 <br>
 
 ### output:
--13
+56 - 69 = -13
 
 # สูตรคูณ 
 ### input
@@ -159,7 +161,18 @@ Memory limit: 16 MB
 บรรทัดแรก รับจำนวนเต็ม n 
 ### output
 บรรทัดเดียว จำนวนเต็ม n ตัวที่สลับแล้ว แต่ละตัวขั้นด้วยช่องว่าง
+### Constraint:
+2 <= n <= 100,000
 
+Time limit: 1 second
+
+Memory limit: 16 MB
+
+### input
+6 \
+1 5 2 6 8 3
+### output
+3 8 6 2 5 1
 
 # Sum 1
 จงหาผลรวมของตัวเลขตั้งแต่ 1 ถึง n
@@ -172,11 +185,14 @@ Memory limit: 16 MB
 
 1 <= n <= 60000
 
- 
 Time limit: 1 second
 
 Memory limit: 16 MB
 
+### input
+10
+### output
+55
 
 # Sum 2
 จงหาผลรวมตัวเลขตั้งแต่ l ถึง r โดยมีค่าเพิ่มขึ้นทีละ k
@@ -305,7 +321,7 @@ Memory limit: 16 MB
 ### output
 บรรทัดเดียว จำนวน cola ที่นนซ่า007 สามารถซื้อได้มากสุด
 
-### constrain:
+### constraint:
 1 <= n <= 10,000
 
 1 <= $x_i$ <= 20
