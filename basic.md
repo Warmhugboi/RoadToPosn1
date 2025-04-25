@@ -178,6 +178,7 @@ Memory limit: 16 MB
 ### output:
 6
 
+
 # swap
 ให้เลขมา n ตัวแล้วให้สลับตัวเลขจากซ้ายไปขวาเป็นขวาไปซ้าย
 ### input
@@ -261,6 +262,31 @@ Memory limit: 16 MB
 1 3 2 1 5 3 6 8 6 1
 ### output
 1 3 2 5 6 8
+
+# reverse
+จงเขียนโปรแกรมรับตัวเลข แล้วแสดงค่าตัวเลขออกมาจากหลังไปหน้า
+### input
+บรรทัดเดียว จำนวนเต็ม n
+### output
+บรรทัดเดียว ตัวเลขจากหลังไปหน้า
+
+### Constraint:
+
+1 <= n <= 100,000
+
+Time limit: 1 second
+
+Memory limit: 16 MB
+
+### input1 :
+1234
+### output1 :
+4321
+
+### input2 :
+140
+### output2 :
+41
 
 # min max
 ### input
