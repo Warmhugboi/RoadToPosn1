@@ -412,7 +412,58 @@ Memory limit: 16 MB
 4
 
 
+# stack
 
+### input
+10 \
+push 10 \
+push 14 \
+pop \
+pop \
+push 21 \
+pop \
+pop \
+push 1 \
+push 5 \
+pop
+### output
+14 \
+10 \
+21 \
+null \
+5
+
+### Constraint:
+
+Time limit: 1 second
+
+Memory limit: 16 MB
+
+# queue
+### input
+10 \
+push 10 \
+push 14 \
+pop \
+pop \
+push 21 \
+pop \
+pop \
+push 1 \
+push 5 \
+pop
+### output
+10 \
+14 \
+21 \
+null \
+1
+
+### Constraint:
+
+Time limit: 1 second
+
+Memory limit: 16 MB
 
 
 
