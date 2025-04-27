@@ -474,7 +474,7 @@ aqcdaelklc
 
 ### Constraint:
 
-1 <= ความยาวอักขระ <= 10000
+3 <= ความยาวอักขระ <= 10000
 
 Time limit: 1 second
 
