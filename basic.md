@@ -283,7 +283,7 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 ### input
-10
+10 \
 1 3 2 1 5 3 6 8 6 1
 ### output
 1 3 2 5 6 8
