@@ -10,7 +10,7 @@
         ll n,fac=1;
         cin>>n;
         for(int i=1;i<=n;++i)
-            fac*=i
+            fac*=i;
         cout<<fac;
     }
 
