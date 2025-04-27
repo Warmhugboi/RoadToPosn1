@@ -633,7 +633,7 @@ Memory limit: 16 MB
 
 ### Constraint:
 
-n <= 100,000
+2 <= n <= 100,000
 
 Time limit: 1 second
 
