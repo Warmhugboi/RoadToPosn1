@@ -7,16 +7,17 @@
     int main(){
         cin.tie(NULL)->sync_with_stdio(false);
         string x;
-        char a;
-        cin>>x>>a;
+        cin>>x;
         int sum=0;
-        if(a<='Z')
-            a+=32;
         for(auto&i:x){
-            if(i==a or i+32==a)
-                sum++;
+            if((i>='A' && i<='Z') or (i>='a' && i<='z') or (i>='0' && i<='9'))
+                continue;
+            else sum+=1;
         }
-        cout<<sum;
+        if(sum==0)
+            cout<<"Yes";
+        else cout<<"No";
+
     }
 
 # Sol_tull

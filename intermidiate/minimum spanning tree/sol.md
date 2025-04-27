@@ -1,4 +1,3 @@
-
 # Sol_top
 
     #include <bits/stdc++.h>
@@ -7,9 +6,7 @@
     
     int main(){
         cin.tie(NULL)->sync_with_stdio(false);
-        ll n,m;
-        cin>>n>>m;
-        cout<<(n*m)/__gcd(n,m);
+        
     }
 
 # Sol_tull

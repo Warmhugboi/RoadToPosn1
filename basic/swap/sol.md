@@ -6,7 +6,16 @@
     
     int main(){
         cin.tie(NULL)->sync_with_stdio(false);
-        
+        ll n;
+        cin>>n;
+        vector<ll>arr;
+        for(int i=0;i<n;++i){
+            ll x;
+            cin>>x;
+            arr.emplace_back(x);
+        }
+        for(int i=n-1;i>=0;--i)
+            cout<<arr[i]<<' ';
     }
 
 # Sol_tull
