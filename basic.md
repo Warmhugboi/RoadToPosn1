@@ -336,8 +336,8 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 ### input
-10
-1 3 9 2 6 3 5 1 7 0
+10 \
+1 3 9 2 6 3 5 1 7 0 \
 1
 ### output
 9
@@ -364,11 +364,11 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 ### input
-10
+10 \
 4 3 1 -6 3 6 9 -5 0 1
 
 ### output
--6 -5 0 1 1 3 3 4 6 9
+-6 -5 0 1 1 3 3 4 6 9 \
 9 6 4 3 3 1 1 0 -5 -6
 
 # sort 2
@@ -391,7 +391,7 @@ Time limit: 1 second
 Memory limit: 16 MB
 
 ### input
-10
+10 \
 4 -3 1 -12 3 6 9 -15 0 1
 
 ### output
