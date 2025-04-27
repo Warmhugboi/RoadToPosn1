@@ -4,7 +4,7 @@
 ### output
 บรรทัดเดียว จำนวนเต็มที่เกิดจาก a บวก b
 ### constraint:
--10<sup>1000000</sup> <= a,b <= 10<sup>1000000</sup>
+0 <= a,b <= 10<sup>1000000</sup>
 
 Time limit: 1 second
 
