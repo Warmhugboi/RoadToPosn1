@@ -3,23 +3,37 @@
     #include <bits/stdc++.h>
     using namespace std;
     #define ll long long
+    #define mp make_pair
+    #define F first
+    #define S second
+    #define ep emplace_back
+    #define pll pair<ll,ll>
+    #define For(i,a) for(int i=0;i<a;++i)
+    #define str string
+    #define MOD int(1e6+3)
+    #define MAXN int(1e6+5)
     
-    int main(){
+    vector<bool>visit(MAXN, 1);
+    
+    int main() {
         cin.tie(NULL)->sync_with_stdio(false);
         int n;
         cin>>n;
-        bool prime[n+1];
-        for(auto&i:prime) i=0;
-        cout<<2<<' ';
-        for(int i=3;i<=n; ){
-            for(int j=2;j*j<=i;++j){
-                if(i%j==0)
-                    prime[i]=1;
+        for(ll i=2;i*i<=MAXN;++i){
+            if(visit[i]){
+                for(ll j=i*i;j<=MAXN;j+=i){
+                    visit[j]=0;
+                }
             }
-            if(prime[i]==0)
-                cout<<i<<' ';
-            i+=2;
         }
+    
+        for(int i=2;i<=n;++i){
+            if(visit[i])
+                cout<<i<<' ';
+        }
+    
+    
+    
     }
 
 # Sol_tull
