@@ -1,14 +1,43 @@
 # Sol_top
 
-    #include <bits/stdc++.h>
-    using namespace std;
-    #define ll long long
-    #define ep emplace_back
-    
-    int main(){
-        cin.tie(NULL)->sync_with_stdio(false);
-        
-    }
+      #include <bits/stdc++.h>
+      using namespace std;
+      #define ll long long
+      #define mp make_pair
+      #define F first
+      #define S second
+      #define ep emplace_back
+      #define pll pair<ll,ll>
+      #define For(i,a) for(int i=0;i<a;++i)
+      #define str string
+      #define MOD int(1e6+3)
+      #define MAXN int(1e6+5)
+
+      bool visit[int(1e5+5)];
+      ll ct[int(1e5+5)];
+
+      int main() {
+      cin.tie(NULL)->sync_with_stdio(false);
+      int n;
+      cin>>n;
+      vector<int>arr;
+      ll MA=INT_MIN;
+      for(int i=0;i<n;++i){
+            int x;
+            cin>>x;
+            arr.ep(x);
+            ct[x]+=1;
+            MA=max(ct[x],MA);
+      }
+      for(int i=0;i<n;++i){
+            if(!visit[arr[i]] && ct[arr[i]]==MA){
+                  cout<<arr[i]<<' ';
+            }
+            visit[arr[i]]=1;
+      }
+      cout<<'\n'<<MA;
+
+      }
 
 # Sol_tull
     #include <iostream>
