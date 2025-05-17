@@ -45,3 +45,58 @@
 
 
 # Sol_tull
+    #include <iostream>
+    #include <vector>
+    #include <queue>
+    #include <stack>
+    #include <algorithm>
+    #include <string.h>
+    #include <math.h>
+    #include <map>
+    #include <tuple>
+    #include <set>
+    #include <unordered_map>
+    #include <unordered_set>
+    #define int long long
+    using namespace std;
+    using pii=pair<int,int>;
+    #define bp '\n'
+    #define vp cout<<bp;
+    #define ck(a) for(auto&e:a)cout<<e<<' ';cout<<'\n';
+    #define inv(a) for(auto&e:a)cin>>e;
+    #define all(a) a.begin(),a.end()
+    const int MX=1e18;
+    const int MN=-MX;
+    #define F first 
+    #define S second
+    #define val(i,j) (i>=0 and i<n and j>=0 and j<m)
+    vector<pii> dir={{1,0},{-1,0},{0,1},{0,-1}};
+    int n,m;
+    
+    signed main(){
+        cin.tie(nullptr)->sync_with_stdio(false);
+        cin>>n>>m;
+        vector<string>a(n);
+        for(auto&e:a){
+            cin>>e;
+        }
+        queue<array<int,3>>q;
+        q.push({0,0,0});
+        while (!q.empty())
+        {
+            auto[i,j,d]=q.front();
+            q.pop();
+            if(i==n-1 and j==m-1){
+                cout<<d+1;
+                return 0;
+            }
+            a[i][j]='X';
+            for(auto&[f,s]:dir){
+                int o=f+i,p=s+j;
+                if(!val(o,p) or a[o][p]=='X')
+                continue;
+                q.push({o,p,d+1});
+            }
+        }
+        return 0;
+    }   
