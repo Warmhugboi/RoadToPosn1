@@ -26,7 +26,7 @@
         if(!st.empty())
             tr=false;
         if(tr==true) cout<<"Yesss";
-        else cout<<"No";
+        else cout<<"No!!";
 
     }
 
