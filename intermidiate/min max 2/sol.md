@@ -40,54 +40,45 @@
       }
 
 # Sol_tull
-    #include <iostream>
-    #include <vector>
-    #include <queue>
-    #include <stack>
-    #include <algorithm>
-    #include <string.h>
-    #include <math.h>
-    #include <map>
-    #include <tuple>
-    #include <set>
-    #include <unordered_map>
-    #include <unordered_set>
-    using namespace std;
-    #define int long long
-    using pii = pair<int, int>;
-    const int MX = 1000000000000000000LL; // 1e18
-    const int MN = -MX;                   //-1e18
-    const int MOD = 1e9 + 7;
-    #define bp '\n'
-    #define F first
-    #define S second
-    #define all(x) x.begin(), x.end()
-    const int mxn = 1e6 + 5;
-    vector<int> a(mxn), v(mxn);
-    signed main()
-    {
+      #include <iostream>
+      #include <vector>
+      #include <queue>
+      #include <stack>
+      #include <algorithm>
+      #include <string.h>
+      #include <math.h>
+      #include <map>
+      #include <tuple>
+      #include <set>
+      #include <unordered_map>
+      #include <unordered_set>
+      #define int long long
+      using namespace std;
+      using pii=pair<int,int>;
+      #define bp '\n'
+      #define vp cout<<bp;
+      #define ck(a) for(auto&e:a)cout<<e<<' ';cout<<'\n';
+      #define all(a) a.begin(),a.end()
+      const int MX=1e18;
+      const int MN=-MX;
+      #define F first 
+      #define S second
+      vector<int>a(100005);
+      signed main(){
           cin.tie(nullptr)->sync_with_stdio(false);
-          int n, t;
-          cin >> n;
-          vector<int> d(n);
-    
-          for (int i = 0; i < n; ++i)
+          int t,n;
+          cin>>n;
+          vector<int>b;
+          while (n--)
           {
-                cin >> t;
-                ++a[t];
-                d[i] = t;
+              cin>>t;
+              b.emplace_back(t);
+              ++a[t];
           }
-          int tar = *max_element(all(a));
-          // cout<<tar<<bp;
-    
-          for (int i = 0; i < n; ++i)
-          {
-                if (a[d[i]] == tar and !v[d[i]])
-                {
-                      cout << d[i] << ' ';
-                      v[d[i]] = 1;
-                }
+          t=*max_element(all(a));
+          for(auto&e:b){
+              if(a[e]==t)cout<<e<<' ';
           }
-          cout << bp << tar;
+          cout<<bp<<t;
           return 0;
-    }
+      }   
