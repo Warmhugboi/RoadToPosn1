@@ -69,7 +69,7 @@
 | float | ทศนิยม 3.4e-38 ถึง 3.4e38 | 4 |
 | double | ทศนิยม 1.7e-308 ถึง 1.7e308  | 8 |
 | bool | true/false | 1 |
-| char | เอาไว้เก็บตัวอักษรเป็น [ascii]() | 1 |
+| char | เอาไว้เก็บตัวอักษรเป็น [ascii](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#ascii-code) | 1 |
 | string | เก็บเป็นข้อความยาวๆ เหมือนเป็น char หลายตัว | 1 * (ขนาดของ string) |
 
 `เพิ่มเติม` unsigned คือเลขจำนวนเต็มที่ไม่ใช่ลบ (ตั้งแต่ 0 ขึ้นไป)
