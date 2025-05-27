@@ -2,7 +2,7 @@
  
     #include <bits/stdc++.h>
     using namespace std;
-    #define ll long long
+    #define int long long
     #define ep emplace_back
     
     bool so(pair<int,int>a, pair<int,int>b){
@@ -11,7 +11,7 @@
         else return a.first < b.first;
     }
     
-    int main(){
+    signed main(){
         cin.tie(NULL)->sync_with_stdio(false);
         int n;
         cin>>n;
