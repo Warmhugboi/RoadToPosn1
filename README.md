@@ -314,6 +314,8 @@ https://youtu.be/y7V7VIPFD9I \
 
 # Loop
 
+https://youtu.be/kga2E2rZyn0?si=atgz9cXahGS9yjsZ <br><br>
+
 ### for
 
 ในภาษา C++ มีการเขียน for loop หน้าตาดังนี้
@@ -373,6 +375,8 @@ https://youtu.be/y7V7VIPFD9I \
     // Output = 1 3 5 7 9
 
 # Array
+
+https://youtu.be/E_9ZteH1tOw?si=HumEWDhJxEUNl72G <br><br>
 
 `array` เป็น Data Struct อย่างนึงที่สามารถเก็บข้อมูลได้หลายๆตัว มีวิธีประกาศดังนี้
 
@@ -471,6 +475,8 @@ https://youtu.be/y7V7VIPFD9I \
 
 # Vector
 
+https://youtu.be/iD1zusrXNeI?si=5by9vcWkENTTkOxI <br><br>
+
 `vector` มีหน้าที่เหมือนกับ `array` เลย คือ ทำหน้าที่เก็บข้อมูลหลายๆตัว แต่จะแตกต่างตรงที่ `array` ไม่สามารถเปลี่ยนขนาดได้ ซึ่ง `vector` จะเข้ามาแก้ปัญหาในส่วนนี้
 มีการประกาศตัวแปรดังนี้
 
@@ -506,6 +512,8 @@ https://youtu.be/y7V7VIPFD9I \
 
 # Ascii Code
 
+https://youtu.be/a3Q5u4pVEXs?si=FxW0sm_w0hJez_tp <br><br>
+
 อย่างที่เราเรียนมาในหัวข้อ [Variables](https://github.com/Warmhugboi/RoadToPosn1/blob/main/README.md#variable) ว่า char เป็นตัวแปรที่ทำหน้าที่รับตัวอักษรตัวเดียว \
 ซึ่งตัวอักษรตัวใดๆ จะมีค่า 2 แบบ คือ `ตัวมันเอง` กับ `ค่าของมัน(ascii code)` เช่น
 
@@ -534,6 +542,8 @@ https://youtu.be/y7V7VIPFD9I \
 
 
 # String
+
+https://youtu.be/E_i-5J--tPg?si=gUhApkITlUuNxPI5 <br><br>
 
 `string` คือโครงสร้างข้อมูลที่ใช้เก็บข้อความ ซึ่งหากมองลึกๆถึงตัวสตริงแล้วมันคือ `vector` ที่ข้างในประกอบไปด้วย `char` เพราะสามารถทำ operation ต่างๆที่ vector สามารถทำได้ ไม่ว่าจะเป็นการเข้าถึงตำแหน่งที่ i-th การเปลี่ยนค่า ณ ตำแหน่งหนึ่ง การถามขนาด หรือแม้แต่การนำค่าไปต่อหลัง แหละนำค่าออกจากด้านหลังของ string 
 มีการประกาศตัวแปรดังนี้
@@ -580,6 +590,8 @@ https://youtu.be/y7V7VIPFD9I \
       }
 # Set
 
+https://youtu.be/vZIM1E1eGv4?si=zknv7YS756vllUWy <br><br>
+
 `set` ใน C++ จะมีนิยามเหมือนกับ เซตในคณิตศาสตร์เลย คือ ไม่มีสมาชิกที่ซั้ากัน และ เรียงจากน้อยไปมาก\
 มีวิธีการประกาศ ดังนี้
 
@@ -623,6 +635,8 @@ https://youtu.be/y7V7VIPFD9I \
 
 
 # Function
+
+https://youtu.be/NFQQY5ZMr8w?si=8YbQbw-vI-NJZYrU <br><br>
 
 ฟังก์ชันคือ กลุ่มของโค้ดที่เมื่อเราเรียกใช้งานก็จะทำงานคำสั่งภายในฟังก์ชันนั้น ซึ่งช่วยให้เราเขียนโค้ดได้สะอาดมากขึ้น โดยเราจะมีการเขียนไว้ข้างบน `main`\
 โดยฟังก์ชันจะมีอยู่ 2 แบบหลักๆ คือ `ส่งค่ากลับ` และ `ไม่ส่งค่ากลับ(void)` 
