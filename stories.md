@@ -86,7 +86,7 @@ emils
 ถ้าเป็นคำที่ถูกต้องให้พิมพ์คำว่า "Yes" แต่ถ้าไม่ให้พิมพ์คำว่า "No"
 ### input 1
 sloiome
-### output 2
+### output 1
 Yes
 ### input 2
 smile
