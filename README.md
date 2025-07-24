@@ -1,7 +1,8 @@
 
 # ข้อควรรู้ก่อนเข้าสู่เนื้อหา
+
 <a href="https://youtu.be/F70RaGIOcUs" target="_blank">https://youtu.be/F70RaGIOcUs</a>
-<a href="https://youtu.be/F70RaGIOcUs" target="_blank">https://youtu.be/F70RaGIOcUs</a>
+
 ### - การเขียนตัวเลขในรูปสัญกรณ์อี
 
    การเขียนโปรแกรมส่วนใหญ่ไม่สามารถนำเสนอตัวเลขให้อยู่ในรูปแบบ a × 10^b จึงมีการใช้สัญกรณ์อักษรอีแสดงผลแทน 
@@ -42,6 +43,9 @@
 
 
 ### - Comment
+<a href="https://youtu.be/fSvBktye6sY" target="_blank">https://youtu.be/fSvBktye6sY</a> \
+<br>
+
    การคอมเมนต์ คือส่วนที่เราเขียนลงไปแล้ว โปรแกรมจะไม่อ่านในส่วนนั้น ซึ่งสามารถเขียนได้อยู่ 2 แบบหลักๆ
 
    การคอมเมนต์บรรทัดเดียว
@@ -60,6 +64,8 @@
 
 # Variable
 
+https://youtu.be/1GAShSD4k5E \
+<br>
 
 | ตัวแปร | รับค่า | Bytes |
 |:---:|:---:|:---:|
@@ -95,6 +101,9 @@
 
 ### - cin
 
+https://youtu.be/v8yn3Yiy1KE \
+<br>
+
 เป็นคำสั่งเอาไว้รับค่า ซึ่งก่อนจะรับค่าอย่าลืมประกาศตัวแปรไว้ก่อนด้วย
 
       int n;
@@ -108,6 +117,8 @@
 
 
 ### - cout
+https://youtu.be/AaqM9DNL4VU \
+<br>
 
 เป็นคำสั่งเอาไว้พิมพ์ค่าแสดงออกทางหน้าจอ
 
@@ -171,6 +182,10 @@
 
 # Conditions and If Statements
 
+https://youtu.be/WyI37H4DlHM \
+<br>
+
+
 ### - ตัวดำเนินการทางตรรกศาตร์
 
 | ตัวดำเนินการ | ชื่อ | คำอธิบาย |
@@ -230,6 +245,10 @@
       }
 
 # Math in C++
+
+https://youtu.be/y7V7VIPFD9I \
+<br>
+
 
 | ตัวกำเนินการ | ความหมาย |
 |:---:|:---:|
