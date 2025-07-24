@@ -1,6 +1,6 @@
 
 # ข้อควรรู้ก่อนเข้าสู่เนื้อหา
-[https://youtu.be/F70RaGIOcUs](https://youtu.be/F70RaGIOcUs)
+<a href="https://youtu.be/F70RaGIOcUs" target="_blank">Visit Website</a>
 ### - การเขียนตัวเลขในรูปสัญกรณ์อี
 
    การเขียนโปรแกรมส่วนใหญ่ไม่สามารถนำเสนอตัวเลขให้อยู่ในรูปแบบ a × 10^b จึงมีการใช้สัญกรณ์อักษรอีแสดงผลแทน 
